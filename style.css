@@ -1,5 +1,86 @@
-html {
-    font-size: 100%;
+* {
+    box-sizing: border-box;
 }
 
-body {}
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    max-width: 40rem;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+#login .top {
+    background-color: #EA5045;
+    width: 50rem;
+    height: 40rem;
+
+
+
+}
+
+#login .logo {
+    position: absolute;
+    top: 16rem;
+    left: 17rem;
+    width: 16rem;
+    height: 6rem;
+
+
+}
+
+#login .bot {
+    background-color: #FAF7F7;
+    width: 50rem;
+    height: 50rem;
+
+}
+
+
+#login .brugernavn {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 9rem
+}
+
+
+#login .adgangskode {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 9rem
+}
+
+
+#login .continue {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 9rem
+}
+
+
+#login .facebooklogin {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 9rem
+}
+
+
+#login .facebooklogin {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 9rem
+}
