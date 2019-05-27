@@ -19,12 +19,24 @@ body {
 
 
 
+/*------------------------ Login -----------------------------*/
+
+
 #login .top {
     background-color: #EA5045;
     width: 50rem;
-    height: 40rem;
+    height: 35rem;
 
 
+
+}
+
+
+
+#login .bot {
+    background-color: #FAF7F7;
+    width: 50rem;
+    height: 50rem;
 
 }
 
@@ -34,16 +46,8 @@ body {
     left: 17rem;
     width: 16rem;
     height: 6rem;
-
-
 }
 
-#login .bot {
-    background-color: #FAF7F7;
-    width: 50rem;
-    height: 50rem;
-
-}
 
 
 #login .brugernavn {
@@ -78,9 +82,5 @@ body {
 }
 
 
-#login .facebooklogin {
-    display: flex;
-    justify-content: center;
-    width: 50rem;
-    height: 9rem
-}
+#
+/* ------------------------------------------------------------------------- */
