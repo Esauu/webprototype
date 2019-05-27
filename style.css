@@ -26,9 +26,6 @@ body {
     background-color: #EA5045;
     width: 50rem;
     height: 35rem;
-
-
-
 }
 
 
@@ -37,7 +34,6 @@ body {
     background-color: #FAF7F7;
     width: 50rem;
     height: 50rem;
-
 }
 
 #login .logo {
@@ -82,5 +78,95 @@ body {
 }
 
 
-#
+
 /* ------------------------------------------------------------------------- */
+
+/* ------------------------------ Forside -----------------------------------*/
+
+#forside {
+    background-color: #FAF7F7;
+    width: 400rem;
+    height: 100rem;
+
+
+}
+
+#forside .menulinje {
+    width: 500px;
+    height: 60px;
+    background-color: #EA5045;
+}
+
+#forside .lille_logo {
+    width: 70px;
+    height: 60px;
+}
+
+/* ------------------------------- colonner ---------------------------------*/
+
+.col1 {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.col2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col3 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col4 {
+    width: 40rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.col5 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+
+.kasse1 {
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    margin: 10px;
+}
+
+
+.kasse2 {
+    width: 300px;
+    height: 140px;
+    background-color: black;
+    margin: 10px;
+
+}
+
+
+.kasse3 {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 10px;
+}
+
+
+/*----------------------------------------------------------------------------*/
