@@ -17,6 +17,12 @@ body {
     margin: 0;
 }
 
+.hidden {
+    display: none;
+    transform: scale(0);
+    transform: translateX(-100%);
+    opacity: 0;
+}
 
 
 /*------------------------ Login -----------------------------*/
@@ -85,15 +91,14 @@ body {
 
 #forside {
     background-color: #FAF7F7;
-    width: 400rem;
+    width: 50rem;
     height: 105rem;
-
 
 }
 
 #forside .menulinje {
     width: 500px;
-    height: 60px;
+    height: 50px;
     background-color: #EA5045;
 }
 
@@ -102,7 +107,19 @@ body {
     height: 60px;
 }
 
+#forside .profil {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 0vw;
+    right: 13vw;
 
+}
+
+
+
+
+/* ------------------------------------------------------------------------- */
 
 #forside p {
     text-align: center;
@@ -135,6 +152,7 @@ body {
 .col1 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
 
 }
@@ -142,12 +160,14 @@ body {
 .col2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
 }
 
 .col3 {
     display: flex;
     flex-direction: row;
+     justify-content: center;
 
 }
 
@@ -157,12 +177,15 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 10px;
+
 
 }
 
 .col5 {
     display: flex;
     flex-direction: row;
+     justify-content: center;
 
 }
 
@@ -237,10 +260,27 @@ body {
 
 .col4 .boks2 {
     position: relative;
-    top: 45%;
+    top: 40%;
     left: 25%;
 
 
 }
 
 /*----------------------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
