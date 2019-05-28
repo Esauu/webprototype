@@ -17,12 +17,6 @@ body {
     margin: 0;
 }
 
-.hidden {
-    display: none;
-    transform: scale(0);
-    transform: translateX(-100%);
-    opacity: 0;
-}
 
 
 /*------------------------ Login -----------------------------*/
@@ -96,30 +90,41 @@ body {
 
 }
 
-#forside .menulinje {
-    width: 500px;
+/* ----------------------------- Menulinje ---------------------------------- */
+
+
+.menulinje {
+    width: 1500px;
     height: 50px;
     background-color: #EA5045;
 }
 
-#forside .lille_logo {
+.lille_logo {
     width: 70px;
     height: 60px;
 }
 
-#forside .profil {
+.profil {
     position: absolute;
     width: 43px;
     height: 43px;
     top: 0vw;
     right: 13vw;
+}
 
+#menuknap {
+    position: absolute;
+    color: white;
+    right: 6vw;
+    top: 2vw;
+    font-size: 30px;
 }
 
 
 
 
-/* ------------------------------------------------------------------------- */
+
+/* -------------------------- p tags ----------------------------------------- */
 
 #forside p {
     text-align: center;
@@ -147,6 +152,76 @@ body {
     color: #F58E81;
 }
 
+#skema .info p1 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: #3F3140;
+    top: 12vw;
+    left: 3vw;
+}
+
+#skema .info p2 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #707070;
+    top: 21vw;
+    left: 3vw;
+}
+
+#skema .info p3 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #707070;
+    top: 13.5vw;
+    right: 3vw;
+}
+
+#skema .info p4 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #707070;
+    top: 21vw;
+    right: 3vw;
+}
+
+#skema .dato p1 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    top: 29vw;
+    left: 50vw;
+}
+
+#skema .dato p2 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    top: 33.2vw;
+    left: 48vw;
+}
+
+#skema .dato p3 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    top: 36vw;
+    left: 50vw;
+}
+
 /* ------------------------------- colonner ---------------------------------*/
 
 .col1 {
@@ -167,7 +242,7 @@ body {
 .col3 {
     display: flex;
     flex-direction: row;
-     justify-content: center;
+    justify-content: center;
 
 }
 
@@ -185,12 +260,12 @@ body {
 .col5 {
     display: flex;
     flex-direction: row;
-     justify-content: center;
+    justify-content: center;
 
 }
 
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------- Kasser og bokse ---------------------------------- */
 
 .kasse1 {
     width: 140px;
@@ -266,7 +341,261 @@ body {
 
 }
 
-/*----------------------------------------------------------------------------*/
+
+/*--------------------------- Skema  ------------------------------------------*/
+
+#skema .info {
+    width: 150vw;
+    height: 17vw;
+    background-color: #DEDCDB;
+}
+
+#skema .dato {
+    width: 150vw;
+    height: 15vw;
+    background-color: #3F3140;
+}
+
+
+
+#skema .lektion1 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid
+}
+
+#skema .lektion2 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid;
+
+}
+
+#skema .pause10 {
+    width: 100vw;
+    height: 5vw;
+    background-color: #FAF7F7;
+    border-color: #E2E8ED;
+    border-style: solid;
+}
+
+#skema .lektion3 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid;
+
+}
+
+#skema .lektion4 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid;
+
+}
+
+#skema .pause12 {
+    width: 100vw;
+    height: 5vw;
+    background-color: #FAF7F7;
+    border-color: #E2E8ED;
+    border-style: solid;
+}
+
+
+#skema .lektion5 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid;
+
+}
+
+#skema .lektion6 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid;
+
+}
+
+
+#skema .pause14 {
+    width: 100vw;
+    height: 5vw;
+    background-color: #FAF7F7;
+    border-color: #E2E8ED;
+    border-style: solid;
+}
+
+
+#skema .lektion7 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid;
+
+}
+
+#skema .lektion8 {
+    width: 100vw;
+    height: 15vw;
+    border-color: #E2E8ED;
+    border-style: solid;
+
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+
+#skema .bund {
+    width: 100vw;
+    height: 15vw;
+    background-color: #3F3140;
+}
+
+.bund p {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#skema .tid {
+    width: 20vw;
+    height 20vw:
+}
+
+#skema p {
+    font-size: 20px;
+    color: #BCC5D3;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*--------------------------- skema moduler  -----------------------------------------*/
+
+.modul1 {
+    position: absolute;
+    top: 42.3vw;
+    right: 5vw;
+    width: 80vw;
+    height: 29vw;
+    background-color: #F2F1F0;
+}
+
+.modul1 p1 {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modul1 p2 {
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modul1 .mappe1 {
+    position: absolute;
+    top: 0vw;
+    right: 2vw;
+    width: 9vw;
+    height: 9vw;
+}
+
+.modul1 .klips1 {
+    position: absolute;
+    top: 6vw;
+    right: 2vw;
+    width: 9vw;
+    ;
+    height: 9vw;
+}
+
+.modul2 {
+    position: absolute;
+    top: 77.6vw;
+    right: 5vw;
+    width: 80vw;
+    height: 28.7vw;
+    background-color: #F2F1F0;
+}
+
+
+.modul2 p1 {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modul2 p2 {
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.modul2 .klips2 {
+    position: absolute;
+    top: 0vw;
+    right: 2vw;
+    width: 9vw;
+    height: 9vw;
+}
+
+.modul3 {
+    position: absolute;
+    top: 112.6vw;
+    right: 5vw;
+    width: 80vw;
+    height: 13.7vw;
+    background-color: #F2F1F0;
+}
+
+
+.modul3 p1 {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modul3 p2 {
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modul3 .mappe3 {
+    position: absolute;
+    top: 0vw;
+    right: 2vw;
+    width: 9vw;
+    height: 9vw;
+}
+
+
+
+/*--------------------------- efekter  -----------------------------------------*/
+
+.hidden {
+    display: none;
+    transform: scale(0);
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+
+
+/*------------------------------ Media quries -----------------------------------*/
 
 
 @media only screen and (min-width: 600px) {
@@ -284,3 +613,5 @@ body {
         display: inline-block;
     }
 
+
+    /*-------------------------------------------------------------------------------*/
