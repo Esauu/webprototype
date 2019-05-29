@@ -548,7 +548,7 @@ body {
     background-color: #3F3140;
 }
 
-.bund p {
+#skema .bund p {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -797,6 +797,24 @@ body {
     height: 9vw;
 }
 
+#materialer .bund {
+    position: fixed;
+    bottom: 0vw;
+    width: 100vw;
+    height: 15vw;
+    background-color: #3F3140;
+}
+
+
+#materialer .bund p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
 
 
 /*--------------------------- efekter  -----------------------------------------*/
