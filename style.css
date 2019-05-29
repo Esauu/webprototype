@@ -209,7 +209,7 @@ body {
     font-size: 10px;
     color: white;
     top: 33.2vw;
-    left: 48vw;
+    left: 48.4vw;
 }
 
 #skema .dato p3 {
@@ -222,7 +222,84 @@ body {
     left: 50vw;
 }
 
-/* ------------------------------- colonner ---------------------------------*/
+
+
+
+
+#materialer .info p1 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: #3F3140;
+    top: 12vw;
+    left: 3vw;
+}
+
+#materialer .info p2 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #707070;
+    top: 21vw;
+    left: 3vw;
+}
+
+#materialer .info p3 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #707070;
+    top: 13.5vw;
+    right: 3vw;
+}
+
+#materialer .info p4 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #707070;
+    top: 21vw;
+    right: 3vw;
+}
+
+#materialer .dato p1 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    top: 29vw;
+    left: 50vw;
+}
+
+#materialer .dato p2 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    top: 33.2vw;
+    left: 48.4vw;
+}
+
+#materialer .dato p3 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    top: 36vw;
+    left: 50vw;
+}
+
+
+
+
+/* -------------------------- forside colonner ---------------------------------*/
 
 .col1 {
     display: flex;
@@ -358,6 +435,20 @@ body {
 
 
 
+#skema .b_pil {
+    position: absolute;
+    width: 6vw;
+    top: 30vw;
+    left: 35vw;
+}
+
+#skema .f_pil {
+    position: absolute;
+    width: 6vw;
+    top: 30vw;
+    right: 30vw;
+}
+
 #skema .lektion1 {
     width: 100vw;
     height: 15vw;
@@ -480,7 +571,7 @@ body {
 
 /*--------------------------- skema moduler  -----------------------------------------*/
 
-.modul1 {
+#skema .modul1 {
     position: absolute;
     top: 42.3vw;
     right: 5vw;
@@ -489,20 +580,20 @@ body {
     background-color: #F2F1F0;
 }
 
-.modul1 p1 {
+#skema .modul1 p1 {
     padding: 20px;
     font-size: 22px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
 }
 
-.modul1 p2 {
+#skema .modul1 p2 {
     padding: 20px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
 }
 
-.modul1 .mappe1 {
+#skema .modul1 .mappe1 {
     position: absolute;
     top: 0vw;
     right: 2vw;
@@ -510,7 +601,7 @@ body {
     height: 9vw;
 }
 
-.modul1 .klips1 {
+#skema .modul1 .klips1 {
     position: absolute;
     top: 6vw;
     right: 2vw;
@@ -519,7 +610,7 @@ body {
     height: 9vw;
 }
 
-.modul2 {
+#skema .modul2 {
     position: absolute;
     top: 77.6vw;
     right: 5vw;
@@ -529,21 +620,21 @@ body {
 }
 
 
-.modul2 p1 {
+#skema .modul2 p1 {
     padding: 20px;
     font-size: 22px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
 }
 
-.modul2 p2 {
+#skema .modul2 p2 {
     padding: 20px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
 
 }
 
-.modul2 .klips2 {
+#skema .modul2 .klips2 {
     position: absolute;
     top: 0vw;
     right: 2vw;
@@ -551,7 +642,7 @@ body {
     height: 9vw;
 }
 
-.modul3 {
+#skema .modul3 {
     position: absolute;
     top: 112.6vw;
     right: 5vw;
@@ -561,23 +652,147 @@ body {
 }
 
 
-.modul3 p1 {
+#skema .modul3 p1 {
     padding: 20px;
     font-size: 22px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
 }
 
-.modul3 p2 {
+#skema .modul3 p2 {
     padding: 20px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
 }
 
-.modul3 .mappe3 {
+#skema .modul3 .mappe3 {
     position: absolute;
     top: 0vw;
     right: 2vw;
+    width: 9vw;
+    height: 9vw;
+}
+
+
+/*--------------------------- materialer  -----------------------------------------*/
+
+#materialer .info {
+    width: 150vw;
+    height: 17vw;
+    background-color: #DEDCDB;
+}
+
+#materialer .dato {
+    width: 150vw;
+    height: 15vw;
+    background-color: #3F3140;
+}
+
+#materialer .b_pil {
+    position: absolute;
+    width: 6vw;
+    top: 30vw;
+    left: 35vw;
+}
+
+#materialer .f_pil {
+    position: absolute;
+    width: 6vw;
+    top: 30vw;
+    right: 30vw;
+}
+
+#materialer .modul1 {
+    position: absolute;
+    top: 45vw;
+    right: 5vw;
+    width: 90vw;
+    height: 25vw;
+    background-color: #F2F1F0;
+
+}
+
+#materialer .modul1 p1 {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+#materialer .modul1 p2 {
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#materialer .modul1 .afleveringer1 {
+    position: absolute;
+    top: 14vw;
+    right: 1vw;
+    width: 9vw;
+    height: 9vw;
+}
+
+
+#materialer .modul2 {
+    position: absolute;
+    top: 73.6vw;
+    right: 5vw;
+    width: 90vw;
+    height: 25vw;
+    background-color: #F2F1F0;
+}
+
+
+#materialer .modul2 p1 {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+#materialer .modul2 p2 {
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#materialer .modul2 .afleveringer2 {
+    position: absolute;
+    top: 14vw;
+    right: 1vw;
+    width: 9vw;
+    height: 9vw;
+}
+
+#materialer .modul3 {
+    position: absolute;
+    top: 102.6vw;
+    right: 5vw;
+    width: 90vw;
+    height: 20vw;
+    background-color: #F2F1F0;
+}
+
+
+#materialer .modul3 p1 {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+#materialer .modul3 p2 {
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#materialer .modul3 .klips3 {
+    position: absolute;
+    top: 9vw;
+    right: 1vw;
     width: 9vw;
     height: 9vw;
 }
