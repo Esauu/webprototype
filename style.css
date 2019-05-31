@@ -78,13 +78,11 @@ input[type=submit] {
     height: 690px;
     width: 320px;
     background-color: #FAF7F7;
-
     margin-right: auto;
     margin-left: auto;
     flex-wrap: wrap;
-    justify-content: cener;
     flex-direction: column;
-    align-content: cener;
+
 }
 
 
